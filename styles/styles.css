@@ -47,11 +47,11 @@ li {
 
 .prc-nav li a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #5F5F5F;
     display: inline-block;
-    width: 100%;
+    width: 50%;
     position: relative;
 }
 
@@ -75,11 +75,29 @@ li {
 }
 
 button {
-    width: 91px;
-    height: 40px;
+
+    font-size: 1rem;
     border-radius: 10px;
+    /* background:gray; */
     padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #0077B6;
     cursor: pointer;
+    color: #00B4D8;
+}
+
+.login:hover {
+    background: linear-gradient(180deg, #0077B6 0%, #00B4D8 100%);
+    border: none;
+    outline: none;
+    color: black;
+}
+
+.signup:hover {
+    background: linear-gradient(180deg, #0077B6 0%, #00B4D8 100%);
+    border: none;
+    outline: none;
+    color: black;
 }
 
 .auth-user {
@@ -99,13 +117,15 @@ button {
 }
 
 /*===================HRO======================*/
-.prc-hero {
-    background-image: url('../images/hero.png');
+#hero-section {
+    height: 60vh;
+    /* padding: 6rem; */
+    background-image: url('/images/hero-image-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
-
+    background-position: center;
 }
+
 
 .search-container {
     position: relative;
@@ -120,6 +140,16 @@ button {
 .search-form {
     position: relative;
     width: 150%;
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.search-form {
+    width: 100%;
     height: 40PX;
     display: block;
     align-items: center;
@@ -129,8 +159,13 @@ button {
     /* margin: 5rem auto; */
 }
 
+
 /*.search-form h1 {
     color: white;
+=======
+.search-form h1{
+      color: white;
+>>>>>>> 7e2bfc0009d1a96f64ccff158241f4e2e19c2f66
     font-size: 1.3rem;
     font-weight: 700;
     font-family: Poppins;
@@ -147,13 +182,20 @@ button {
     box-sizing: border-box;
     outline: none;
     /* flex: 1;
+=======
+
+
+.search-bar input{
+    flex: 1;
+>>>>>>> 7e2bfc0009d1a96f64ccff158241f4e2e19c2f66
     width: 45%;
-    height: 50px;
+    /* height: 50px; */
+    padding: 1rem;
     border: 1px solid gray;
     border-radius: 8px;
     background: white;
     outline: none;
-    align-items: center;*/
+    align-items: center;
 }
 
 .fa-search {
@@ -169,6 +211,7 @@ button {
 
     border: 0;
     background: linear-gradient(180deg, #0077B6 0%, #00B4D8 100%);
+
     color: #fff;
     outline: none;
     margin: 0;
@@ -179,6 +222,13 @@ button {
     /*
     padding: 6px;
     
+=======
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    margin-left: -90px;
+
     font-size: 1rem;
     font-weight: 700;*/
 }
@@ -186,6 +236,59 @@ button {
 #search-btn:hover {
     color: black;
     transition: .3s;
+}
+
+/* Product row for electronics */
+.container-topdeal-product {
+    width: 95%;
+    margin: 0 auto;
+    padding: .5rem;
+}
+
+.products {
+    width: 95%;
+    margin: 10px auto;
+}
+
+.products h4 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+.container-item-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* gap: px; */
+    align-items: center;
+
+}
+
+.product-item-top {
+    width: 95%;
+    padding: 1rem;
+    /* height:4vh ; */
+    background: #C5C5C5;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.p-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 38px;
+    margin-bottom: .5rem;
+}
+
+.product-item-top img {
+    height: 25vh;
+    width: 100%;
 }
 
 /*=============MEDIA QUERIES=============*/
