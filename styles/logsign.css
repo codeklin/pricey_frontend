@@ -23,6 +23,9 @@ main{
     border-radius: 8px;   
     margin: 2rem auto;
 }
+ span{
+    color: #0096C7;
+}
 .logleftside-logo{
     background-image: url('/images/login-Asset/Rectanglelogin.png');
     background-repeat: no-repeat;
@@ -65,27 +68,38 @@ main{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: .7rem;
     letter-spacing: 0.06em;
-    color: #5F5F5F;
     text-align: center;
+    font-size: .8rem;
+    line-height: 20px;
+    color: #141414;
 }
-.cr8t-rec{
-    margin-bottom: 10px;
+.btn{
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(180deg, #0077B6 0%, #00B4D8 100%);
+    border-radius: 4.84534px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0px;
+    color: white;
+
 }
+
 .details-collection{
     margin-top: 1.5rem;
 }
 .mail input {
-    margin-top: 10px;
+    margin-top: 3px;
     margin-bottom: 10px;
     width: 100%;
-    padding: 8px;
+    padding: 5px;
 }
 .paswd input {
-    margin-top: 5px;
+    margin-top: 2px;
     width: 100%;
-    padding: 8px;
+    padding: 5px;
 }
 
 .link-a{
@@ -113,37 +127,45 @@ main{
     line-height: 15px;
     color: #1E1E1E;
 }
+
+
+/* Recovery password style */
 .rightside-log-rec{
     display: block;
     margin: 0 auto;
     padding: 1.5rem;
-    width: 100%;
+    width: 50%;
     height: 50%;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .pad-rec {
     display: grid;
-    margin: 0 auto;
+    margin: -2rem auto;
     width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 2rem;
 }
-.pad-rec img{
+.pad-lock-rec{
     text-align: center;
+    margin: 0 auto;
 }
 .log-p-rec{
     width:100%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin-top: -4rem;
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 400;
-    font-size: .7rem;
-    letter-spacing: 0.06em;
-    color: #5F5F5F;
-    text-align: center;
-    margin-bottom: 15rem;
+    font-weight: 700;
+    font-size: .8rem;
+    line-height: 20px;
+    color: #141414;
 }
+
 .login-with-rec a{
     text-decoration: none;
     list-style: none;
@@ -154,24 +176,16 @@ main{
     line-height: 15px;
     color: #1E1E1E;
 }
-.btn{
-    width: 100%;
-    padding: 10px;
-    background: linear-gradient(180deg, #0077B6 0%, #00B4D8 100%);
-    border-radius: 4.84534px;
-    width: 100%;
-    border: none;
-    border-radius: 5px;
-    margin: 5px 0px;
-    color: white;
 
+.cr8t-rec{
+    margin-bottom: 10px;
 }
 .btn-rec{
     width: 100%;
     padding: 10px;
     background: linear-gradient(180deg, #0077B6 0%, #00B4D8 100%);
     border-radius: 4.84534px;
-    width: 100%;
+    width: 90%;
     border-radius: 5px;
     border: none;
     margin: 5px;
@@ -186,7 +200,7 @@ main{
 .mail-rec input{
      margin-top: 10px;
     margin-bottom: 10px;
-    width: 95%;
+    width: 90%;
     padding: 8px;
 }
 .btn-sign{
@@ -208,12 +222,13 @@ main{
 .btn-google{
     display: flex;
     width: 100%;
-    padding: 5px;
+    padding: 6px;
     border-radius: 4.84534px;
     width: 100%;
     border-radius: 5px;
+    border: 2px solid lightgray;
     margin: 5px 0px;
-    font-size: .8rem;
+    font-size: .9rem;
     justify-content: center;
     gap: 5px;
 }
@@ -221,9 +236,10 @@ main{
 .btn-facebook{
     display: flex;
     width: 100%;
-    padding: 5px;
+    padding: 6px;
     border-radius: 4.84534px;
     width: 100%;
+    border: 2px solid lightgray;
     border-radius: 5px;
     margin: 5px 0px;
     justify-content: center;
@@ -239,7 +255,7 @@ main{
     display:flex;
     justify-content: center;
     align-items:center;
-    margin: 5rem auto;
+    margin: 1rem auto;
     flex-direction: row;
     background-color: white;
     border-radius: 8px;   
