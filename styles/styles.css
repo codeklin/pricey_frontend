@@ -75,25 +75,27 @@ li {
 }
 
 button {
-    
-     font-size: 1rem;
+
+    font-size: 1rem;
     border-radius: 10px;
     /* background:gray; */
     padding: 10px;
-     font-size: 1rem;
-    border:1px solid #0077B6;
-    cursor: pointer;    
+    font-size: 1rem;
+    border: 1px solid #0077B6;
+    cursor: pointer;
     color: #00B4D8;
 }
-.login:hover{
- background: linear-gradient(180deg, #0077B6 0%, #00B4D8 100%);
-    border:none;
+
+.login:hover {
+    background: linear-gradient(180deg, #0077B6 0%, #00B4D8 100%);
+    border: none;
     outline: none;
     color: black;
 }
-.signup:hover{
+
+.signup:hover {
     background: linear-gradient(180deg, #0077B6 0%, #00B4D8 100%);
-    border:none;
+    border: none;
     outline: none;
     color: black;
 }
@@ -115,25 +117,38 @@ button {
 }
 
 /*===================HRO======================*/
-#hero-section{
-   height: 60vh;
-   /* padding: 6rem; */
-   background-image: url('/images/hero-image-bg.png');
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
+#hero-section {
+    height: 60vh;
+    /* padding: 6rem; */
+    background-image: url('/images/hero-image-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
 .search-container {
- display: block;
- justify-content: center;
- align-items: center;
- text-align: center;
+    position: relative;
+    width: 500px;
+    /* height: 40PX;
+    /*display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;*/
+}
+
+.search-form {
+    position: relative;
+    width: 150%;
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
 }
 
-.search-form{
+.search-form {
     width: 100%;
     height: 40PX;
     display: block;
@@ -143,66 +158,105 @@ button {
     padding: 6rem;
     /* margin: 5rem auto; */
 }
+
+
+/*.search-form h1 {
+    color: white;
+=======
 .search-form h1{
       color: white;
+>>>>>>> 7e2bfc0009d1a96f64ccff158241f4e2e19c2f66
     font-size: 1.3rem;
     font-weight: 700;
     font-family: Poppins;
     text-align: center;
     margin-bottom: 5px;
-}
+}*/
 
+.search-bar input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 100px 10px 20px;
+    line-height: 1;
+    box-sizing: border-box;
+    outline: none;
+    /* flex: 1;
+=======
 
 
 .search-bar input{
     flex: 1;
+>>>>>>> 7e2bfc0009d1a96f64ccff158241f4e2e19c2f66
     width: 45%;
     /* height: 50px; */
     padding: 1rem;
-    border:1px solid gray;
+    border: 1px solid gray;
     border-radius: 8px;
     background: white;
     outline: none;
     align-items: center;
 }
-.fa-search{
+
+.fa-search {
     position: relative;
-    color:rgb(207, 201, 201);
+    color: rgb(207, 201, 201);
     font-size: 1.3rem;
     right: -35px;
     z-index: 1;
-} 
+}
+
 #search-btn {
+
+
+    border: 0;
     background: linear-gradient(180deg, #0077B6 0%, #00B4D8 100%);
+
+    color: #fff;
+    outline: none;
+    margin: 0;
+    margin-left: -80px;
+    padding: 0 10px;
+    border-radius: 5px;
+    z-index: 2;
+    /*
+    padding: 6px;
+    
+=======
     padding: 10px;
     border: none;
     outline: none;
     color: white;
     margin-left: -90px;
+
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 700;*/
 }
-#search-btn:hover{
+
+#search-btn:hover {
     color: black;
     transition: .3s;
 }
 
 /* Product row for electronics */
-.container-topdeal-product{
+.container-topdeal-product {
     width: 95%;
     margin: 0 auto;
-    padding:.5rem;  
+    padding: .5rem;
 }
-.products{
+
+.products {
     width: 95%;
     margin: 10px auto;
 }
-.products h4{
+
+.products h4 {
     font-weight: 700;
     font-size: 1.2rem;
-    margin-bottom:.5rem;
+    margin-bottom: .5rem;
 }
-.container-item-product{
+
+.container-item-product {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-between;
@@ -211,9 +265,10 @@ button {
     height: 100%;
     /* gap: px; */
     align-items: center;
-  
+
 }
-.product-item-top{
+
+.product-item-top {
     width: 95%;
     padding: 1rem;
     /* height:4vh ; */
@@ -221,7 +276,8 @@ button {
     border-radius: 10px;
     text-align: center;
 }
-.p-text{
+
+.p-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -229,7 +285,8 @@ button {
     line-height: 38px;
     margin-bottom: .5rem;
 }
-.product-item-top img{
+
+.product-item-top img {
     height: 25vh;
     width: 100%;
 }
