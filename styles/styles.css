@@ -155,7 +155,7 @@ button {
     flex: 1;
     width: 45%;
     height: 50px;
-    padding: 1rem;
+    padding: 2rem;
     border: 1px solid gray;
     border-radius: 8px;
     background: white;
@@ -177,7 +177,7 @@ button {
     border: none;
     outline: none;
     color: white;
-    margin-left: -80px;
+    margin-left: -100px;
     font-size: 1rem;
     font-weight: 700;
 
