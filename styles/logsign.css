@@ -271,6 +271,18 @@ main{
     border-radius: 8px 0 0 8px;
 
 }
+#fname{
+     margin-top: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+}
+#lname{
+     margin-top: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+}
 #orOpt{
     display: flex;
     justify-content: space-evenly;
