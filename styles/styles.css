@@ -15,11 +15,8 @@ li {
     text-decoration: none;
 }
 
-/*==================NAV BGINS========================*/
 .prc-header {
     width: 100%;
-    background: #FFFFFF;
-    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.25);
 }
 
 .prc-container {
@@ -47,11 +44,11 @@ li {
 
 .prc-nav li a {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #5F5F5F;
     display: inline-block;
-    width: 50%;
+    width: 100%;
     position: relative;
 }
 
@@ -75,13 +72,10 @@ li {
 }
 
 button {
-
-    font-size: 1rem;
+    width: 91px;
+    height: 40px;
     border-radius: 10px;
-    /* background:gray; */
     padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #0077B6;
     cursor: pointer;
     color: #00B4D8;
 }
@@ -247,6 +241,7 @@ button {
     width: 100%;
 }
 
+
 /*=============MEDIA QUERIES=============*/
 @media (max-width:560px) {
     .prc-nav {
@@ -262,4 +257,74 @@ button {
         font-size: 2rem;
 
     }
+}
+
+/*about t&c contact*/
+main{
+    padding: 2em;
+    margin: 0% 20%;
+
+}
+
+h2{
+    padding: 5px;
+    color: rgb(49, 86, 220);
+    letter-spacing: 1px;
+    line-height: 20px;
+
+}
+h3{
+    padding: 5px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: rgb(49, 86, 220);
+}
+.tcdiv p{
+    letter-spacing: 1px;
+    padding: 5px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 20px;
+}
+#subject {
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+    border-width: 2px;
+}
+#con_name {
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+    border-width: 2px;
+}
+#email {
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+    border-width: 2px;
+}
+#pnum {
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+    border-width: 2px;
+}
+#con_message{
+    width: 80%;
+    height: 300px;
+    border-radius: 3px;
+    border-width: 2px;
+}
+
+#con_btn{
+    background-color:rgb(49, 86, 220) ;
+    color: white;
+}
+.table_div label{
+    letter-spacing: 1px;
+    padding: 5px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 20px;
 }
