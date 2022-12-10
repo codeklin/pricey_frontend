@@ -157,7 +157,8 @@ button {
 .search-bar input{
     flex: 1;
     width: 45%;
-    height: 50px;
+    /* height: 50px; */
+    padding: 1rem;
     border:1px solid gray;
     border-radius: 8px;
     background: white;
@@ -173,11 +174,11 @@ button {
 } 
 #search-btn {
     background: linear-gradient(180deg, #0077B6 0%, #00B4D8 100%);
-    padding: 6px;
+    padding: 10px;
     border: none;
     outline: none;
     color: white;
-    margin-left: -100px;
+    margin-left: -90px;
     font-size: 1rem;
     font-weight: 700;
 }
