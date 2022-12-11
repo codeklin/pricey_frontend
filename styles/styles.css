@@ -329,3 +329,48 @@ h3{
     font-size: 15px;
     line-height: 20px;
 }
+/*documentation*/
+#doc_main{
+    margin: 20px;
+    padding: 0px;
+}
+h1, h2, h3, h4, p{
+    padding: 2em;
+    margin: 0% 20%;
+    text-align: justify;
+    letter-spacing: 1px;
+    padding: 5px;
+    line-height: 20px;
+
+
+}
+#doc_main li{
+    padding: 2em;
+    margin: 0% 20%;
+    text-align: justify;
+    letter-spacing: 1px;
+    padding: 5px;
+    line-height: 20px;
+
+}
+.main_doc{
+    display: flex;
+}
+.side_bar{
+    border-width: 3px;
+    position: fixed;
+    width: 30%;
+    
+}
+.side_bar li{
+    list-style: none;
+    width: 70% ;
+}
+.side_bar a{
+    color: black;
+}
+.doc_content{
+    margin: 0px 50px;
+}
+.doc_content div{
+}
