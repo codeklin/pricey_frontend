@@ -211,17 +211,19 @@ button {
 }
 
 .product-item-top {
-    width: 95%;
+    width: 49%;
     padding: 1rem;
     /* height:4vh ; */
-    background: #C5C5C5;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
+    background: linear-gradient(180deg, #EBEBEB 0%, rgba(217, 217, 217, 0) 100%);
+    border-radius: 10px;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.25);
 }
 
 .product-item-top img {
-    height: 25vh;
-    width: 100%;
+    width: 20%;
+
 }
 
 /*==========================TOP DEALS=========================*/
@@ -297,16 +299,27 @@ button {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 95%;
     border-radius: 10px;
-    padding: 1rem;
+
 }
 
 .card h4 {
     margin: 1rem;
+
+}
+
+.card p {
+    padding: 0 1rem 1rem;
 }
 
 .card img {
     width: 100%;
     border-radius: 10px 10px 0 0;
+}
+
+.container-item-product1 {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
 }
 
 /*=====================FOOTER SECTION=======================*/
