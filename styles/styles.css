@@ -197,6 +197,18 @@ button {
     flex-direction: row;
 }
 
+.product-item-topto {
+    width: 95%;
+    padding: 1rem;
+    height: 100%;
+    border-radius: 10px;
+    text-align: left;
+    background: #C5C5C5;
+    border-radius: 10px;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.25);
+
+}
+
 .container-topdeal-product {
     width: 95%;
     margin: 0 auto;
@@ -211,7 +223,7 @@ button {
 }
 
 .product-item-top {
-    width: 49%;
+    width: 100%;
     padding: 1rem;
     /* height:4vh ; */
     border-radius: 10px;
@@ -223,6 +235,11 @@ button {
 
 .product-item-top img {
     width: 20%;
+
+}
+
+.product-item-topto img {
+    width: 100%;
 
 }
 
@@ -323,44 +340,42 @@ button {
 }
 
 /*=====================FOOTER SECTION=======================*/
-.foot {
-    display: grid;
-    grid-template-rows: 5fr;
-
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-ul {
-    list-style: none;
-}
-
 .footer {
     background-color: #1e1e1e;
-    padding: 7px 0;
+    padding: 7px 3rem;
+
 }
 
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
+    margin-bottom: 2rem;
+
+}
+
+ul,
+li {
+    list-style: none;
+    line-height: 30px;
+
+}
+
+
 .footer-col {
-    width: 0 25%;
-    padding: 0 15px;
+    padding: 5px 10px;
     color: white;
 }
 
 .footer-col h4 {
     font-size: 18px;
     color: #ffff;
-    text-transform: capitalize;
-    margin: 30px;
+    margin: 1rem 0;
 
 }
 
 .pricey {
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 15px;
+    line-height: 26px;
     font-weight: 500px;
     color: white;
     /* width: 133px; */
@@ -372,18 +387,12 @@ ul {
     height: 6vh;
 }
 
-.container {
-    padding: 5px;
-    max-width: 100%;
-    /* background-color: #231f20; */
-    margin: auto;
-
-}
 
 
 
 
-/*about t&c contact*/
+
+/*===============================about t&c contact===============================*/
 main {
     padding: 2em;
     margin: 0% 20%;
