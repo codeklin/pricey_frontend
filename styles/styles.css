@@ -78,21 +78,22 @@ button {
     border: 1px solid lightgray;
     padding: 10px;
     cursor: pointer;
-    color: #00B4D8;
+    color: #03045E;
+    ;
 }
 
 .login:hover {
-    background: linear-gradient(180deg, #0077B6 0%, #00B4D8 100%);
+    background: #03045E;
     border: none;
     outline: none;
-    color: black;
+    color: white;
 }
 
 .signup:hover {
-    background: linear-gradient(180deg, #0077B6 0%, #00B4D8 100%);
+    background: #03045E;
     border: none;
     outline: none;
-    color: black;
+    color: white;
 }
 
 .auth-user {
@@ -172,7 +173,7 @@ button {
 }
 
 #search-btn {
-    background: linear-gradient(180deg, #0077B6 0%, #00B4D8 100%);
+    background: #03045E;
     padding: 6px;
     border: none;
     outline: none;
@@ -184,13 +185,13 @@ button {
 
 }
 
-#search-btn:hover {
+/*#search-btn:hover {
     color: black;
     transition: .3s;
-}
+}*/
 
 /*=============== Product row for electronics =======================*/
-.container-topdeal-product {
+.product-container {
     width: 95%;
     margin: 0 auto;
     padding: .5rem;
@@ -199,6 +200,13 @@ button {
 .products {
     width: 95%;
     margin: 10px auto;
+    color: #000000;
+
+}
+
+.title-head {
+    display: flex;
+    justify-content: space-between;
 }
 
 .products h4 {
@@ -214,7 +222,6 @@ button {
     align-items: center;
     width: 100%;
     height: 100%;
-    /* gap: px; */
     align-items: center;
 
 }
@@ -222,28 +229,17 @@ button {
 .product-item-top {
     width: 95%;
     padding: 1rem;
-    /* height:4vh ; */
-    background: #C5C5C5;
+    background: linear-gradient(180deg, #EBEBEB 0%, rgba(217, 217, 217, 0) 100%);
     border-radius: 10px;
-    text-align: center;
-}
-
-.p-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 38px;
-    margin-bottom: .5rem;
+    text-align: right;
 }
 
 .product-item-top img {
-    height: 25vh;
-    width: 100%;
+    height: 50%;
+    width: 50%;
 }
 
-
-/*==========hns===========*/
+/*==================TOP DEALS=============================*/
 .container-topdeal-product {
     width: 95%;
     margin: 0 auto;
@@ -283,14 +279,7 @@ button {
     text-align: center;
 }
 
-.p-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 38px;
-    margin-bottom: .5rem;
-}
+
 
 .product-item-top img {
     height: 25vh;
@@ -306,21 +295,7 @@ button {
 
 }
 
-.container-item-product1 {
-    display: flex;
-    display: grid;
-    padding-left: 14px;
-    grid-template-columns: 5.3fr 5.3fr;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    /* gap: px; */
-    align-items: center;
-
-
-}
-
+/*=====================FOOTER SECTION=======================*/
 .foot {
     display: grid;
     grid-template-rows: 5fr;
@@ -345,6 +320,7 @@ ul {
 .footer-col {
     width: 0 25%;
     padding: 0 15px;
+    color: white;
 }
 
 .footer-col h4 {
@@ -359,6 +335,7 @@ ul {
     font-size: 20px;
     line-height: 36px;
     font-weight: 500px;
+    color: white;
     /* width: 133px; */
 }
 
