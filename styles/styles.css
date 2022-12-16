@@ -366,6 +366,25 @@ li {
     color: white;
 }
 
+.footer-col input {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+
+}
+
+.footer-col input :placeholder-shown {
+    color: white;
+}
+
+.footer-col button {
+    background: #03045E;
+    color: #ffffff;
+    border: none;
+}
+
 .footer-col h4 {
     font-size: 18px;
     color: #ffff;
